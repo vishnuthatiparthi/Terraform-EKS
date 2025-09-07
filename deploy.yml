@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: nginx
-        image: <your-dockerhub-username>/amazon-clone:latest
+        image: public.ecr.aws/t1m2g6a9/amazon:latest
         ports:
         - containerPort: 80
 
